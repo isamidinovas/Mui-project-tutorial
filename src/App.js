@@ -5,6 +5,7 @@ import { Box, Stack } from "@mui/system";
 
 import "./App.css";
 import { Navbar } from "./components/Navbar";
+import { Add } from "@mui/icons-material";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Feed />
           <Rightbar />
         </Stack>
+        <Add />
       </Box>
     </div>
   );
