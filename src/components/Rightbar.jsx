@@ -15,7 +15,7 @@ import React from "react";
 
 export const Rightbar = () => {
   return (
-    <Box flex={2} p={2} sx={{ display: { xs: "none", sm: "block" } }}>
+    <Box flex={2} p={2} sx={{ display: { xs: "none", md: "block" } }}>
       <Box position="fixed" width={300}>
         <Typography variant="h6" fontWeight="100">
           Online Friends
@@ -75,42 +75,6 @@ export const Rightbar = () => {
               alt="img"
             />
           </ImageListItem>
-          {/* <ImageListItem>
-            <img
-              src="https://images.pexels.com/photos/15955944/pexels-photo-15955944.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-              alt="img"
-            />
-          </ImageListItem>
-          <ImageListItem>
-            <img
-              src="https://images.pexels.com/photos/12800697/pexels-photo-12800697.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-              alt="img"
-            />
-          </ImageListItem>
-          <ImageListItem>
-            <img
-              src="https://images.pexels.com/photos/9495080/pexels-photo-9495080.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-              alt="img"
-            />
-          </ImageListItem>
-          <ImageListItem>
-            <img
-              src="https://images.pexels.com/photos/13931403/pexels-photo-13931403.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-              alt="img"
-            />
-          </ImageListItem>
-          <ImageListItem>
-            <img
-              src="https://images.pexels.com/photos/13394023/pexels-photo-13394023.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-              alt="img"
-            />
-          </ImageListItem>
-          <ImageListItem>
-            <img
-              src="https://images.pexels.com/photos/14791360/pexels-photo-14791360.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-              alt="img"
-            />
-          </ImageListItem> */}
         </ImageList>
         <Typography variant="h6" fontWeight="100" mt={2} mb={2}>
           Latest Conversations
